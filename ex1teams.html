@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body style="text-align:center;">
+    <h1>Cadastro de Pessoas</h1>
+    <form method="post">
+    Nome: <input type="text" placeholder="Nome">
+    E-mail <input type="email" placeholder="E-mail"><br><br>
+    Telefone <input type="tel" placeholder="Telefone">
+    Data de nascimento <input type="date"><br>
+    Categoria: 
+    <input type="radio" name="tipo">Estudante 
+    <input type="radio" name="tipo">Professor 
+    <input type="radio" name="tipo">Funcionário <br>
+    Possui interesse em:
+     <input type="checkbox">Mecânica
+     <input type="checkbox">T.I
+     <input type="checkbox">Elétrica<br><br>
+     Quantos cursos já fez na escola?: 
+     <input type="number" min="0" max="100"><br><br>
+     Selecione a unidade desejada:
+     <select>
+        <option>Acre - Sr. Carlos mario bros</option>
+        <option>Uruguai - Sra. Sem pernas</option>
+        <option>China - 猫猫猫猫猫 </option>
+    </select><br>
+    Insira sua foto: <input type="image">  Nenhum arquivo escolhido <br><br>
+    
+    <input type="reset" name="limpa"> <input type="submit" name="enviar">
+
+
+
+    </form>
+</body>
+</html>
